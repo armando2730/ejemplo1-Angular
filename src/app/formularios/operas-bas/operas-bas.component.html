@@ -1,0 +1,50 @@
+<div class="card">
+
+<div class="row">
+<div class="col-6">
+
+    <div class="card-header">
+        <br>
+        <br>
+        <br>
+        <h1>Operaciones</h1>
+      <h1>Suma</h1>
+   
+    <div class="mb-3">
+        <label for="" class="from-label">Numero 1</label>
+        <input type="text" class="form-control" [(ngModel)]="num1" name="num1" placeholder="Numero1">
+
+    </div>
+    <div class="mb-3">
+        <label for="" class="from-label">Numero 2</label>
+        <input type="text" class="form-control" [(ngModel)]="num2" name="num1" placeholder="Numero2">
+
+    </div>
+    <div class="mb-3">
+        <button (click)="sumar()"class="btn btn-primary">Calcular</button>
+    </div>
+    <div class="col-6">
+        <h2>Resultado:{{res}}</h2>
+    </div>
+
+
+    <div class="mb-3">
+        <h1>Multiplicación</h1>
+        <label for="" class="from-label">Ingrese un numero a multiplicar</label>
+        <input type="text" class="form-control" [(ngModel)]="num3" name="num1" placeholder="Numero">
+
+    </div>
+    <div class="mb-3">
+        <button (click)="multiplicar()"class="btn btn-primary">Calcular</button>
+    </div>
+    <div class="div col-6">
+        <div *ngFor="let resultado of texto">
+            {{resultado}}
+
+        </div>
+    </div>
+</div>
+
+</div>
+</div>
+</div>

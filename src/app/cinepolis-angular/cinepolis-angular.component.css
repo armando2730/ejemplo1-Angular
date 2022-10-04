@@ -1,0 +1,10 @@
+thead{
+    color: palegreen;
+}
+.btn-primary{
+    background-color: rgb(37, 37, 183);
+}
+.card-header{
+    background-color: rgb(48, 48, 182);
+    color: black;
+}

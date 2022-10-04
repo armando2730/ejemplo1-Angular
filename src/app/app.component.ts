@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ejemplo1-Angular';
+  nombre:string='Armando';
+  apaterno:string='Villafaña';
+
+  
+  calculaDoble(x:number):number{
+    return x*2;
+  }
 }
